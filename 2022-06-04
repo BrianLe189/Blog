@@ -1,0 +1,25 @@
+Decided to start blogging just to keep track of things. Github seemed like an okay place to blog. 
+
+What I did so far today:
+Moved a couple of directories that are linked to my git repository within a newly create directory using mkdir and mv.
+
+Figure out what kind of formatting I should put my dates and times in and I stumbled upon ISO 8601, I just kind of skimmed it over and now my blog posts will be formatted like that. Ex: December 15th, 1998 in ISO 8601 standard would be 1998-12-15. It is sorted from left to right by largest unit of time to smallest unit of time. I misnamed this file by using "vi 22-06-04", I'll have to go back and change it to 2022-06-04 by using the mv command.
+
+I have to link this local folder to my github repo after I finish this.
+
+Things currently on my plate:
+Studying for Net+ through professor messer youtube videos
+
+Things I want to put on my plate next:
+1. Automatic updates on my fedora system
+   -Maybe this will help me better understand services and automate things
+   -Since I'll only be doing this on my pc, I'll be able to rollback the changes,   I can boot into previous fedora versions, and I am physically next to my pc to troubleshoot.
+   -https://fedoraproject.org/wiki/AutoUpdates
+2. Find a better way to blog that through vi? or maybe I can use vim, or some other text editor that is better suited
+   -Vi or Vim could be a great way for me to learn
+   -Can make editing a pain
+3. Learn how to backup my data to cloud storage and then automate it on a weekly basis
+   -Have to start somewhere
+   -Find cloud storage? Google drive, box, 
+   -Test backups through a vm? or a modified bootable usb 
+
