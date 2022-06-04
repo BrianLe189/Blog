@@ -22,4 +22,16 @@ Things I want to put on my plate next:
    -Have to start somewhere
    -Find cloud storage? Google drive, box, 
    -Test backups through a vm? or a modified bootable usb 
+4. Github pages?
 
+I forgot that I have wiped my computer a couple of times so I didn't have an existing SSH key for github, I had to make another SSH key and then I incorrectly made my remote origin https instead of SSH. I was like huh, I gotta enter a username and password. Then I realized okay I have to use ssh and I googled how to change it. git remote origin set-url and git remote -v to verify.
+
+Things I used or learned:
+mkdir (create a directory)
+mv (move files to different directorys or to rename them)
+vi (universal linux text editor)
+ISO 8601 (international standard of communication for date/time related data) 
+git remote origin set-url (change the git url of what my local folder is connected to)
+git remote -v (shows git url of what my local folder is connected to, -v is an arguement to show the remote's url otherwise it would only show the shortname (origin))
+ssh-keygen -t ed25519 (creating a ssh key, -t means that I will select an algorithm and the choice that was chosen was ed25519)
+ls ~/.ssh/id_ed25519.pub (this just checks to see if I have a Ed25519 algorithm SSH key already installed, which I didn't due to wiping my computer previously)
